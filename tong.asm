@@ -1,5 +1,4 @@
 ; tinh tong 2 so co 1 chu so 
-; co tong nho hon 10
 
 .MODEL SMALL
 .STACK 10
