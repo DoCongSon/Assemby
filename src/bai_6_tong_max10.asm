@@ -15,14 +15,14 @@
         LEA DX, B1   ; lay dia chi seg cua B1 cho vao DX
         MOV AH, 9    ; in dong B1
         INT 21h
-        MOV AH, 1    ; nhap so nhu 1
+        MOV AH, 1    ; nhap so thu 1
         INT 21h
         MOV BL, AL  
         
         LEA DX, B2
         MOV AH, 9
         INT 21h
-        MOV AH, 1    ; nhap so nhu 2
+        MOV AH, 1    ; nhap so thu 2
         INT 21h
         ADD AL, BL   ; cong 2 so cho vao AL
         AAA          ; hieu chinh AL
